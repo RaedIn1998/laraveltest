@@ -81,6 +81,7 @@ class PostCommentController extends Controller
     public function update(UpdatePostCommentRequest $request, PostComment $postComment)
     {
         //
+        //test
     }
 
     /**
