@@ -41,7 +41,7 @@ class PostCommentController extends Controller
 //            $data
             // Create a new post
             $post = Post::create($request->validated());
-
+//test
             // Retrieve the ID of the newly created post
 //            $postId = $post->id;
             $post->comments()->create($request->validated());
